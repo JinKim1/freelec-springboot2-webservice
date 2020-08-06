@@ -2,6 +2,7 @@ package com.jojoldu.book.springboot.config.auth;
 
 
 import com.jojoldu.book.springboot.domain.user.Role;
+import com.jojoldu.book.springboot.config.auth.CustomOAuth2UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
